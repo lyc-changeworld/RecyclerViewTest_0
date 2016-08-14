@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--初始化为“无脑”布局，之后调用setLayoutManager来控制布局-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.achuan.recyclerview.MainActivity"
+    android:layout_margin="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@drawable/item_bg" >
+    <!--发现自定义的分隔线可能不大适应于布局,最后还是添加了：
+    android:layout_margin="3dp" 来实现基本的分隔效果-->
+    <TextView
+        android:id="@+id/id_item_tv"
+        android:layout_width="72dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/app_name">
+    </TextView>
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_add"
+        android:title="Add">
+        <!--ifRoom可以让菜单显示在标题旁，并独自显示，别忘了设置为app:-->
+    </item>
+    <item
+        android:id="@+id/action_delete"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/action_listview"
+        app:showAsAction="never"
+        android:title="ListView">
+    </item>
+    <item
+        android:id="@+id/action_gridview"
+        android:showAsAction="never"
+        android:title="GridView">
+    </item>
+    <item
+        android:id="@+id/action_hor_gridwiew"
+        android:showAsAction="never"
+        android:title="HorizontalGridView">
+    </item>
+    <item
+        android:id="@+id/action_staggered"
+        android:showAsAction="never"
+        android:title="StaggeredGridView">
+    </item>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="settings">
+    </item>
+
+</menu>
